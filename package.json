@@ -1,0 +1,25 @@
+{
+  "name": "qvac-wingman-text-generator",
+  "version": "1.0.0",
+  "description": "Describe the situation and an on-device AI drafts a friendly, low-pressure text to help break the ice, with a deterministic smoothness meter.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "fun",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
